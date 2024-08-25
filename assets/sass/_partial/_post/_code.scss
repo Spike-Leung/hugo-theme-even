@@ -5,10 +5,14 @@ code, pre {
   background: $code-background;
 }
 
+.verbatim {
+    background: #eee;
+    padding: 0 0.2em;
+}
+
 code {
   padding: 3px 5px;
   border-radius: 4px;
-  color: $code-color;
 }
 
 pre > code {
@@ -44,6 +48,10 @@ figure.highlight {
     &.#{$sign} > table::after {
       content: $text;
     }
+  }
+
+  code,pre {
+      background: $code-background;
   }
 
   .code {
